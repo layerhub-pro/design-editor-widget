@@ -1,0 +1,37 @@
+{
+  "name": "canvas-designer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.7",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@layerhub-io/react-custom-scrollbar": "^0.0.1",
+    "@layerhub-pro/react": "^1.8.2",
+    "fabric": "^5.2.4",
+    "framer-motion": "^7.6.4",
+    "lodash": "^4.17.21",
+    "nanoid": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "vite-tsconfig-paths": "^3.5.2"
+  },
+  "devDependencies": {
+    "@layerhub-pro/types": "^1.8.2",
+    "@types/fabric": "^4.5.13",
+    "@types/lodash": "^4.14.190",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0"
+  }
+}
